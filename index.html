@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Samsung · Explora su tecnología</title>
+<meta name="theme-color" content="#1428a0">
+<link rel="manifest" href="manifest.json">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header><div class="wrap bar">
+  <a class="logo" href="#inicio">SAMSUNG</a>
+  <button id="instalar" class="inst" hidden>Descargar app</button>
+  <nav aria-label="Principal"><a href="#productos">Productos</a><a href="#historia">Historia</a><a href="#fundador">Fundador</a><a href="#curiosidades">Curiosidades</a><a href="#ecosistema">Ecosistema</a><a href="#descargas">Descargas</a></nav>
+</div></header>
+<main id="inicio">
+<div class="wrap hero">
+  <h1>Tecnología que se adapta a ti</h1>
+  <p class="lead">Conoce las líneas de Samsung y la historia de la empresa que las creó.</p>
+  <div class="acts"><button class="btn" id="descargar">⬇ Descargar app</button><a class="btn alt" href="#historia">Ver historia</a></div>
+  <div class="stage" id="productos">
+    <div>
+      <div class="tabs" role="tablist" aria-label="Categorías" id="tabs"></div>
+      <div class="info" aria-live="polite"><h2 id="pt"></h2><p id="pd"></p><ul class="tags" id="pg"></ul></div>
+    </div>
+    <div class="art" id="art">
+      <img id="foto" alt="" hidden>
+      <div class="dev" id="dev" data-k="phone" role="img" aria-label="Ilustración del dispositivo"></div>
+    </div>
+  </div>
+</div>
+
+<section id="historia"><div class="wrap">
+  <h2 class="t">Historia de Samsung</h2>
+  <p class="sub">De una pequeña empresa de comercio en Corea a un gigante de la electrónica.</p>
+  <ol class="time">
+    <li><b>1938</b><p>Lee Byung-chul funda Samsung en Daegu, Corea. Empieza como empresa de comercio que vendía productos como pescado seco, frutas y fideos.</p></li>
+    <li><b>1969</b><p>Nace Samsung Electronics, el inicio de su camino en la electrónica. Poco después fabrica sus primeros televisores en blanco y negro.</p></li>
+    <li><b>1987</b><p>Muere el fundador y su hijo, Lee Kun-hee, toma la dirección del grupo.</p></li>
+    <li><b>1992</b><p>Desarrolla un chip de memoria DRAM de 64 Mb y se convierte en líder mundial en memorias.</p></li>
+    <li><b>2006</b><p>Pasa a ser la marca de televisores más vendida del mundo, posición que ha mantenido desde entonces.</p></li>
+    <li><b>2009</b><p>Llega el primer teléfono de la familia Galaxy, con Android.</p></li>
+    <li><b>2013</b><p>Presenta el Galaxy Gear, su primer reloj inteligente.</p></li>
+    <li><b>2019</b><p>Sale al mercado el Galaxy Fold, su primer celular plegable.</p></li>
+  </ol>
+</div></section>
+
+<section id="fundador"><div class="wrap">
+  <h2 class="t">¿Quién creó Samsung?</h2>
+  <p class="sub">La historia empieza con un emprendedor coreano.</p>
+  <div class="founder">
+    <div class="seal"><div><b>1910<br>1987</b><span>Lee Byung-chul</span></div></div>
+    <div>
+      <h3>Lee Byung-chul</h3>
+      <p class="role">Fundador de Samsung</p>
+      <p>Nació en 1910 en Uiryeong, Corea. En 1938 abrió en Daegu la empresa que llamó Samsung, con la que comerciaba alimentos y otros productos hacia China.</p>
+      <p>Con los años amplió el negocio a la molienda de fideos, los seguros, la industria textil y, ya en 1969, la electrónica. Murió en 1987 y su hijo Lee Kun-hee impulsó la etapa de crecimiento global de la marca.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="curiosidades"><div class="wrap">
+  <h2 class="t">Curiosidades</h2>
+  <p class="sub">Datos que quizá no conocías.</p>
+  <div class="facts">
+    <div><h3>El significado del nombre</h3><p>«Samsung» viene del coreano y significa «tres estrellas». El tres representa algo grande, numeroso y fuerte.</p></div>
+    <div><h3>Más que celulares</h3><p>El grupo Samsung también tiene empresas de construcción, seguros, barcos y más, no solo electrónica.</p></div>
+    <div><h3>Rascacielos famosos</h3><p>Samsung C&amp;T participó en la construcción de edificios como el Burj Khalifa y las Torres Petronas.</p></div>
+    <div><h3>Sede</h3><p>Samsung Electronics tiene su sede en Suwon, Corea del Sur.</p></div>
+    <div><h3>Líder en pantallas y memorias</h3><p>Es de las empresas más importantes del mundo en televisores, pantallas y chips de memoria.</p></div>
+    <div><h3>Galaxy</h3><p>El nombre de su línea estrella de dispositivos desde 2009: celulares, tabletas, relojes, audífonos y laptops.</p></div>
+  </div>
+</div></section>
+
+<section id="ecosistema"><div class="wrap">
+  <h2 class="t">Un ecosistema conectado</h2>
+  <p class="sub">Sus dispositivos están pensados para funcionar juntos.</p>
+  <div class="eco">
+    <div><h3>Galaxy</h3><p>Celulares, tabletas, relojes, audífonos y laptops bajo una misma familia.</p></div>
+    <div><h3>SmartThings</h3><p>Controla los aparatos inteligentes de casa desde una sola app.</p></div>
+    <div><h3>Pantallas</h3><p>Televisores y monitores para ver, jugar y trabajar.</p></div>
+    <div><h3>Electrodomésticos</h3><p>Refrigeradores, lavadoras y más, conectados a tu red.</p></div>
+  </div>
+</div></section>
+<!--D--><section id="descargas"><div class="wrap">
+  <h2 class="t">Descargas</h2>
+  <p class="sub">Llévate la app contigo: elige la forma que prefieras.</p>
+  <div class="eco dl">
+    <div><h3>📲 Instalar la app</h3><p>Se guarda como app en tu celular o computadora y abre sin conexión.</p><button class="btn" id="inst2">Instalar</button></div>
+    <div><h3>📄 Versión portátil</h3><p>Un solo archivo .html con todo incluido. Ábrelo con doble clic, sin XAMPP ni internet.</p><a class="btn" href="descargas/samsung-portatil.html" download>Descargar .html</a></div>
+    <div><h3>📦 Proyecto completo</h3><p>Archivo .zip con todos los archivos para copiarlos a la carpeta htdocs de XAMPP.</p><a class="btn" href="descargas/samsung-app.zip" download>Descargar .zip</a></div>
+  </div>
+</div></section><!--/D-->
+</main>
+<footer><div class="wrap">Proyecto conceptual no oficial con fines ilustrativos. Samsung y Galaxy son marcas registradas de Samsung Electronics Co., Ltd. Las imágenes de productos pertenecen a sus respectivos dueños.</div></footer>
+
+<dialog id="ayuda">
+  <h3>Descargar la app</h3>
+  <p id="diag"><b>No se pudo abrir el instalador automático.</b></p>
+  <p>Puedes instalarla así:</p>
+  <ul>
+    <li><b>Chrome / Edge (PC o Android):</b> menú ⋮ → «Instalar app» o «Agregar a pantalla de inicio».</li>
+    <li><b>Safari (iPhone / iPad):</b> botón Compartir → «Agregar a pantalla de inicio».</li>
+  </ul>
+  <p>También puedes usar la <a href="#descargas" onclick="ayuda.close()">versión portátil o el .zip</a> de la sección Descargas.</p>
+  <p>Para instalarla debes abrirla desde <code>localhost</code> o con HTTPS.</p>
+  <details><summary><b>Instalar en el celular</b></summary>
+    <p>Los celulares solo permiten instalar apps desde <b>HTTPS</b>. Sube la carpeta <code>samsung-app</code> a un hosting gratuito como <b>Netlify Drop</b> (app.netlify.com/drop) o <b>GitHub Pages</b>, abre el enlace que te den y toca «Instalar».</p>
+  </details>
+  <button class="btn" id="cerrar">Entendido</button>
+</dialog>
+<script src="app.js"></script>
+</body>
+</html>
